@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  background: lightgray;
+}
+html {
+  margin: 30px 20px;
+}
+input {
+  margin: 40px 0px;
+}
+.employee {
+  padding: 45px 0px;
+  border-bottom: 3px solid gray;
+}
+input {
+  position: sticky;
+  top: 16px;
+  width: 100%;
+  outline: 0;
+  background: #ffffff;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+input:focus {
+  border-color: gray;
+}
